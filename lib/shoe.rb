@@ -14,18 +14,34 @@ class Shoe
     @color = shoe_color
   end
 
+  def color
+    @color
+  end
+
   def size=(shoe_size)
     @size = shoe_size
+  end
+
+  def size
+    @size
   end
 
   def material=(shoe_material)
     @material = shoe_material
   end
 
+  def material
+    @material
+  end
+
   def condition=(shoe_condition)
     @condition = shoe_condition
   end
 
-  
+  def condition
+    @condition
+  end
+
+
 
 end
